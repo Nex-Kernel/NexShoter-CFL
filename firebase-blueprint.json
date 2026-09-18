@@ -1,0 +1,26 @@
+{
+  "entities": {
+    "UserProfile": {
+      "collection": "users",
+      "fields": {
+        "id": { "type": "string", "description": "Firebase Auth UID" },
+        "email": { "type": "string", "description": "User email" },
+        "displayName": { "type": "string", "description": "Player in-game callsign" },
+        "createdAt": { "type": "string", "description": "Account registration timestamp" },
+        "updatedAt": { "type": "string", "description": "Last profile sync timestamp" },
+        "stats": {
+          "type": "object",
+          "description": "Lifetime combat stats (kills, deaths, wins, losses, matches, headshots, bestStreak, xp, level, coins)"
+        },
+        "loadout": {
+          "type": "object",
+          "description": "Equipped weapon and character skin loadout"
+        },
+        "unlockedSkins": {
+          "type": "array",
+          "description": "List of unlocked skin identifiers"
+        }
+      }
+    }
+  }
+}

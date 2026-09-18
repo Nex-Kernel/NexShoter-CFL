@@ -1,0 +1,10 @@
+{
+  "name": "NexShoter  Cloudflare Edition",
+  "description": "Fast-paced browser 3D FPS with parkour movement, customizable loadouts, unlockable skins, map editor, daily challenges, and Firebase-powered cloud accounts.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
